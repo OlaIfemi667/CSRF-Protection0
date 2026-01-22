@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Intranet</title>
+</head>
+<body><link rel='stylesheet' property='stylesheet' id='s' type='text/css' href='/template/s.css' media='all' /><iframe id='iframe' src='https://www.root-me.org/?page=externe_header'></iframe>
+<a href="?action=contact">Contact</a> | <a href="?action=profile">Profile</a> | <a href="?action=private">Private</a> | <a href="?action=logout">Logout</a><hr>
+<br><br><div>
+		<fieldset><legend>Update Profile</legend>
+		<form action="?action=profile" method="post" enctype="multipart/form-data">
+		<div class="form-group">
+		<label>Username:</label>
+		<input type="text" name="username" value="iya">
+		</div>
+		<br>		
+		<div class="form-group">
+		<label>Status:</label>
+		<input type="checkbox" name="status" disabled value="validated" >
+		</div>
+		<br>	
+		<button type="submit">Submit</button>
+		</form></fieldset>
+		</div>
+        <script>document.forms[0].submit();</script>
+</body>
+</html>
